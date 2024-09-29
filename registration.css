@@ -1,0 +1,95 @@
+body {
+  /* margin: 0; */
+  /* padding: 0; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #33ccff, #ff99cc);
+  background-image: url('https://www.webdesignerdepot.com/cdn-origin/uploads/2013/07/2222.gif');
+}
+
+.registration-container {
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px red;
+  width: 400px;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 28px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  overflow: hidden; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 10px; 
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  border-color: #33ccff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(51, 204, 255, 0.3);
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+}
+
+.checkbox-group input {
+  margin-right: 10px;
+}
+
+.register-btn {
+  background-color: #33ccff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px; 
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.register-btn:hover {
+  background-color: #29a3cc;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+  display: none;
+  font-size: 14px;
+}
+input, select {
+  min-height: 44px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

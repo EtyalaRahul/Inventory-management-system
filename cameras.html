@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>mobiles</title>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li id="logo">E-commerce</li>
+            <li><input type="search" id="navsearch" placeholder="Enter your search here "><button
+                    id="navbtn">search</button></li>
+            <li>
+                <div class="flex"><img src="cart.svg">&nbsp; Cart</div>
+            </li>
+            <li>
+                <div class="flex"><img src="login.svg">&nbsp; <a href="login.html" id="hey">Login / profile</a></div>
+            </li>
+        </ul>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mobiles.html">Mobiles</a></li>
+            <li><a href="audios.html">Grocery</a></li>
+            <li><a href="televisions.html">Televisions</a></li>
+            <li><a href="home-appliances.html">Home Appliances</a></li>
+            <li><a href="computers.html">Computer</a></li>
+            <li><a href="cameras.html">Cameras</a></li>
+            <li><a href="kitchen-appliances.html">Kitchen Appliances</a></li>
+        </ul>
+        
+    </nav>
+    <div class="image-slider" id="customCarousel">
+        <div class="slider-track" id="sliderTrack">
+            <img src="https://via.placeholder.com/800x400?text=Custom+Image+1" alt="Custom Image 1">
+            <img src="https://via.placeholder.com/800x400?text=Custom+Image+2" alt="Custom Image 2">
+            <img src="https://via.placeholder.com/800x400?text=Custom+Image+3" alt="Custom Image 3">
+            <img src="https://via.placeholder.com/800x400?text=Custom+Image+4" alt="Custom Image 4">
+            <img src="https://via.placeholder.com/800x400?text=Custom+Image+5" alt="Custom Image 5">
+        </div>
+        <button class="slider-prev" onclick="prevSlide()">&#10094;</button>
+        <button class="slider-next" onclick="nextSlide()">&#10095;</button>
+    </div>
+    <div class="slider-dots" id="customDots">
+        <span class="slider-dot" onclick="goToSlide(0)"></span>
+        <span class="slider-dot" onclick="goToSlide(1)"></span>
+        <span class="slider-dot" onclick="goToSlide(2)"></span>
+        <span class="slider-dot" onclick="goToSlide(3)"></span>
+        <span class="slider-dot" onclick="goToSlide(4)"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
